@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.music-player {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.song {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 5px;
+}
+
+
+.song[data-song="1"] {
+  background-color: #e0f7fa;
+}
+
+.song[data-song="2"] {
+  background-color: #ffe0b2;
+}
+
+.song[data-song="3"] {
+  background-color: #d1c4e9;
+}
+
+.song[data-song="4"] {
+  background-color: #c8e6c9;
+}
+
+.song[data-song="5"] {
+  background-color: #ffccbc;
+}
+
+.song[data-song="6"] {
+  background-color: #b3e5fc;
+}
+
+.song[data-song="7"] {
+  background-color: #ffecb3;
+}
+
+.song[data-song="8"] {
+  background-color: #f8bbd0;
+}
+
+.song[data-song="9"] {
+  background-color: #c5cae9;
+}
+
+.song[data-song="10"] {
+  background-color: #ffab91;
+}
+
+audio[controls] {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+    </style>
+ 
+  <title>Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="music-player">
+    <h1>Music Player</h1>
+    
+    <div class="song" data-song="1">
+      <h3>Song 1 - Artist 1</h3>
+      <audio controls>
+        <source src="Love You Zindagi - Dear Zindagi 128 Kbps.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="2">
+      <h3>Song 2 - Artist 2</h3>
+      <audio controls>
+        <source src="Mehabooba.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="3">
+      <h3>Song 3 - Artist 3</h3>
+      <audio controls>
+        <source src="You Are My Mla - SenSongsMp3.Co.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="4">
+      <h3>Song 4 - Artist 4</h3>
+      <audio controls>
+        <source src="Telusaa Telusaa - SenSongsMp3.Co.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="5">
+      <h3>Song 5 - Artist 5</h3>
+      <audio controls>
+        <source src="Blockbuster - SenSongsMp3.Co.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="6">
+      <h3>Song 6 - Artist 6</h3>
+      <audio controls>
+        <source src="Athiloka Sundari - SenSongsMp3.Co.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="7">
+      <h3>Song 7 - Artist 7</h3>
+      <audio controls>
+        <source src="song7.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="8">
+      <h3>Song 8 - Artist 8</h3>
+      <audio controls>
+        <source src="song8.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="9">
+      <h3>Song 9 - Artist 9</h3>
+      <audio controls>
+        <source src="song9.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="song" data-song="10">
+      <h3>Song 10 - Artist 10</h3>
+      <audio controls>
+        <source src="song10.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+</body>
+</html>
